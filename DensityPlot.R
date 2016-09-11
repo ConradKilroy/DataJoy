@@ -1,6 +1,6 @@
 # The data is read from a csv (*comma separated value*) file. The data was collected at Baystate Medical Center, Springfield, Mass during 1986. The relevant columns for this example are `smoke`: smoking status during pregnancy, and `bwt`: birth weight in grams.
 
-data <- read.csv("mydata.csv")
+data <- read.csv("DensityPlot.csv")
 data$smoke <- factor(data$smoke)  # convert numeric column to factor
 print(head(data))                 # a glance at the data
 
